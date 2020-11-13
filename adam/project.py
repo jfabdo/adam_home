@@ -31,7 +31,7 @@ class Projects(object):
 
     """
 
-    REST_ENDPOINT_PREFIX = '/projects'
+    REST_ENDPOINT_PREFIX = '/project'
 
     def __init__(self, rest):
         self._rest = rest

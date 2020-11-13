@@ -39,7 +39,7 @@ propagation_params = PropagationParams({
     'start_time': '2017-10-04T00:00:00Z',   # propagation start time in ISO format
     'end_time': '2017-10-11T00:00:00Z',     # propagation end time in ISO format
 
-    'project_uuid': config.get_workspace(),
+    'project_uuid': config['workspace'],
 
 #     'step_size': 60 * 60,  # step size (seconds)
 #     'propagator_uuid': '00000000-0000-0000-0000-000000000002',  # force model
